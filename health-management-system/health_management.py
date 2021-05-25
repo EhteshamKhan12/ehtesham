@@ -4,6 +4,7 @@ def getdate():
     return datetime.datetime.now()
 def take():
     name=list(input("Enter Your name"))
+    name=inp.lower()
 
     c=int(input("Enter 1 for ex and 2 for diet"))
     if (c == 1):
@@ -21,6 +22,7 @@ def take():
 
 def retrieve():
     name = list(input("Enter Your name"))
+    name=inp.lower()
 
     c = int(input("enter 1 for excersise and 2 for food"))
     if (c == 1):
